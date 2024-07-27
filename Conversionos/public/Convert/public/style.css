@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+.heading{
+  color:#f71414 ;
+  background-color:#ffffff;
+  height:70px;
+  padding:25px;
+ 
+}
+.footer{
+  color:#ff0000;
+  background-color: #000000;
+}
+html {
+  background-color: #ffffff;
+}
+.i1{
+  border: 5px;
+  border-color: #000000;
+}
+ .itemslist {
+  margin-left: 40px;
+}
+.listQuantity li {
+ 
+  padding: 10px; /* Add some padding */
+ margin-left: 10px;
+  margin-bottom: 5px ; /* Add some margin */
+  list-style: none; /* Remove default list bullets */
+  
+  font-size: 15px;
+  font-weight: 15px;
+  font-weight: bold;
+  line-height: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  color: rgb(240, 52, 174);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+nav li:hover {
+  background-color: #76e0f3;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s;
+
+}
+
+body {
+  min-width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  top: 0px;
+  position: sticky;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ff7315;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  width: 945px;
+  margin-top: 50px;
+  margin-left: 150px;
+  
+
+}
+
+nav {
+  width: 20%;
+  margin: 0;
+  padding: 10px 0;
+  float: left;
+  display: block;
+}
+
+
+nav li {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+
+.selected {
+  background-color:#f54d4d;
+}
+
+#optionQuantity {
+  width: 50%;
+  height: 46px;
+  margin: 20px 0 0 0;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px;
+  border-width: 1px;
+  display: none;
+}
+
+#converterSpace {
+  width: 500px;
+  margin-left: 300px;
+
+  
+}
+.titleofitem{
+  color:#8a3bf0;
+  font-weight: bold;
+  font-size: 20px;
+}
+#converterSpace h4 {
+  margin: 0;
+}
+
+.converter {
+  display: flex;
+  margin: 20px 0;
+  color: rgb(248, 45, 227);
+}
+
+.input {
+  flex-basis: 70%;
+}
+
+input {
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 10px 0 0 10px;
+  border:none;
+  margin-bottom: 20px;
+  
+  box-shadow: 1px 3px 10px rgba(15, 15, 15, 0.5);
+}
+select{
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 10px 0 0 10px;
+  border:none;
+  margin-bottom: 20px;
+  
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.option {
+  flex-basis: 30%;
+}
+
+.converter select {
+  width: 100%;
+  height: 46px;
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 0 10px 10px 0;
+  border-width: 1px;
+}
+
+#formula {
+  margin: 0;
+  padding: 10px 0;
+}
+
+#formula p {
+  margin: 10px 0;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #ff7315;
+}
+
+footer p {
+  margin: 4px auto;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+button {
+  cursor: pointer;
+  font-size: 20px;
+  width: 150px;
+  height: 46px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #ffa259;
+}
+
+.buttonCollumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonCollumn button {
+  width: 310px;
+  margin: 5px auto;
+}
+
+#liffLoginButton {
+  background-color: #91bd3a;
+}
+
+#liffLogoutButton {
+  background-color: #fa4252;
+}
+
+#code-block {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#statusMessage {
+  position: relative;
+  top: 40px;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+#liffData {
+  display: none;
+}
+
+@media (max-width: 963.9px) {
+  main {
+    width: 98%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  #optionQuantity {
+    display: block;
+  }
+  #converterSpace {
+    width: 100%;
+    float: none;
+  }
+}
